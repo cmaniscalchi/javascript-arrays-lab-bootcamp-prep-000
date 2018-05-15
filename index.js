@@ -30,6 +30,6 @@ function prependKitten(name) {
   return [name, ...kittens];
 }
 
-function appendKitten(name) {
+function removeLastKitten() {
   return [...kittens, name];
 }
